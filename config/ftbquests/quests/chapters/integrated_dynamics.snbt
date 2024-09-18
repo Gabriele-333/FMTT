@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_dynamics"
+	group: "665E55C66CD00092"
+	id: "591A05E47EC82FDB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_complete: true
+			id: "12E77756221FCC1F"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "2A394F2C2D1E7E53"
+				item: { count: 1, id: "integrateddynamics:on_the_dynamics_of_integration" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12E77756221FCC1F"]
+			id: "348DA16C4752BA1C"
+			tasks: [{
+				advancement: "integrateddynamics:meneglin_basics/meneglin_discovery"
+				criterion: ""
+				id: "5474D14D79DA154E"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["348DA16C4752BA1C"]
+			id: "33159D783ABA6669"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "71107ECFE87D6F88"
+				item: { components: { "cyclopscore:energy_storage": 0 }, count: 1, id: "integrateddynamics:energy_battery" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1E9313FA45D03B84"
+				"33159D783ABA6669"
+			]
+			id: "0A7562BFAE5604AC"
+			tasks: [{
+				id: "0A96104CBA7D4E96"
+				item: { count: 1, id: "integrateddynamics:mechanical_squeezer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["33159D783ABA6669"]
+			id: "297AA3E08B717D8A"
+			tasks: [{
+				id: "045434E79B13372B"
+				item: { count: 1, id: "integrateddynamics:coal_generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12E77756221FCC1F"]
+			id: "1E9313FA45D03B84"
+			tasks: [{
+				id: "7E1354B00817E92F"
+				item: { count: 1, id: "integrateddynamics:squeezer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12E77756221FCC1F"]
+			id: "4829932D149BAEC0"
+			tasks: [{
+				id: "18C27DBAA803BF05"
+				item: { count: 1, id: "integrateddynamics:drying_basin" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4829932D149BAEC0"
+				"33159D783ABA6669"
+			]
+			id: "02B9BEF84C883DDF"
+			tasks: [{
+				id: "47775134CE93BB1C"
+				item: { count: 1, id: "integrateddynamics:mechanical_drying_basin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0A7562BFAE5604AC"
+				"02B9BEF84C883DDF"
+			]
+			dependency_requirement: "one_completed"
+			id: "76FF2B26C6B9BB3F"
+			tasks: [
+				{
+					id: "3983922B9180CDE2"
+					item: { count: 1, id: "integrateddynamics:crystalized_menril_block" }
+					type: "item"
+				}
+				{
+					id: "0A8E420059615397"
+					item: { count: 1, id: "integrateddynamics:crystalized_menril_chunk" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0A7562BFAE5604AC"
+				"02B9BEF84C883DDF"
+			]
+			id: "5EFD0EF622E4B931"
+			tasks: [
+				{
+					id: "1D0DD684882FE776"
+					item: { count: 1, id: "integrateddynamics:crystalized_chorus_block" }
+					type: "item"
+				}
+				{
+					id: "1355440D68777656"
+					item: { count: 1, id: "integrateddynamics:crystalized_chorus_chunk" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76FF2B26C6B9BB3F"]
+			dependency_requirement: "one_started"
+			id: "5F29D884D27849E3"
+			shape: "hexagon"
+			tasks: [{
+				id: "5757F896063C7A81"
+				item: { count: 1, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76FF2B26C6B9BB3F"]
+			dependency_requirement: "one_started"
+			id: "03547F34F8CED2AD"
+			shape: "hexagon"
+			tasks: [{
+				id: "786FFF0218A8309A"
+				item: { count: 1, id: "integrateddynamics:logic_programmer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76FF2B26C6B9BB3F"]
+			dependency_requirement: "one_started"
+			id: "29E5B6AFDF804C67"
+			shape: "hexagon"
+			tasks: [{
+				id: "4EA2208D0085828D"
+				item: { count: 1, id: "integrateddynamics:variablestore" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F29D884D27849E3"]
+			id: "27C9E2D76D96943B"
+			tasks: [{
+				id: "1C4CFBB051489065"
+				item: { count: 1, id: "integratedtunnels:part_interface_energy" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F29D884D27849E3"]
+			id: "0B3495090F84F220"
+			tasks: [{
+				id: "490BE8278BA30AFE"
+				item: { count: 1, id: "integratedtunnels:part_interface_item" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F29D884D27849E3"]
+			id: "2BF095C72CF3D2F8"
+			tasks: [{
+				id: "135C81821DDD956A"
+				item: { count: 1, id: "integratedtunnels:part_interface_fluid" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5EFD0EF622E4B931"]
+			id: "6533DA92D0344E2A"
+			tasks: [{
+				id: "72D20525509F0DDC"
+				item: { count: 1, id: "integrateddynamics:logic_director" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+	]
+}

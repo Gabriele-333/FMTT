@@ -1,0 +1,576 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_generators"
+	group: "665E55C66CD00092"
+	id: "30A1A7510F692784"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3EC9755EAD86EA3F"]
+			icon: {
+				id: "mekanism:energy_tablet"
+			}
+			id: "5207797D60D2BBC1"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "1955499ECDBA846B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5207797D60D2BBC1"]
+			id: "26BBBCCA97B1A64B"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "04DB7D1F8919F1C3"
+				item: { }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.875d
+		}
+		{
+			dependencies: ["26BBBCCA97B1A64B"]
+			id: "5315D56CD75E50D4"
+			tasks: [{
+				id: "367BCA12E7C2C8BC"
+				item: { }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.875d
+		}
+		{
+			dependencies: ["22856C1D239C6186"]
+			id: "1E9669A3946FA6DA"
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "4D8F2C800F51C6DF"
+				item: { }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.875d
+		}
+		{
+			dependencies: ["26BBBCCA97B1A64B"]
+			id: "050D4DDB828FF770"
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "7B4A0C54527FD8DC"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.875d
+		}
+		{
+			dependencies: ["050D4DDB828FF770"]
+			id: "4E97BE1D15C89768"
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "5E2780D825D937C3"
+				item: { }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.375d
+		}
+		{
+			dependencies: ["4E97BE1D15C89768"]
+			id: "4633B4DFF95B80EA"
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "5E9EF8B49ED17DBF"
+				item: { }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.375d
+		}
+		{
+			dependencies: ["4633B4DFF95B80EA"]
+			id: "325F0DC803F7A2C7"
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "3EBB911948905F52"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.875d
+		}
+		{
+			dependencies: ["325F0DC803F7A2C7"]
+			id: "22C6E2575959DC2E"
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "0E9BCD3AA214C748"
+				item: { }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.875d
+		}
+		{
+			dependencies: ["22C6E2575959DC2E"]
+			id: "3D5841608F1E5FA3"
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "6C8172A84232B0B1"
+				item: { }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.375d
+		}
+		{
+			dependencies: ["3D5841608F1E5FA3"]
+			id: "22856C1D239C6186"
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "2440460865D69686"
+				item: { }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.375d
+		}
+		{
+			dependencies: ["5207797D60D2BBC1"]
+			id: "4CABB17D0CDE92A2"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "574CB8928FD4A3A9"
+				item: { }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.875d
+		}
+		{
+			dependencies: ["5207797D60D2BBC1"]
+			id: "1523D8E04FEA460C"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "621D26424AB89EBE"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1523D8E04FEA460C"]
+			id: "12B5A2486BDA1AD9"
+			shape: "gear"
+			tasks: [
+				{
+					id: "2AE891E37E0633C7"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6FD9529B3E3021DC"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4BDFE1ACAD73750D"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1523D8E04FEA460C"]
+			id: "64046DBFAAC35E60"
+			shape: "gear"
+			tasks: [
+				{
+					id: "3531CF74AE82E30D"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "426331C16E0F7363"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "35805FF37074DE9A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "7CA4971F423D4DC4"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1523D8E04FEA460C"]
+			id: "73C31D31117DF626"
+			shape: "gear"
+			tasks: [
+				{
+					id: "049E9A7BB46DF35A"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "25D73329A5F9AD71"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2B26C942890434B3"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"64046DBFAAC35E60"
+				"73C31D31117DF626"
+				"12B5A2486BDA1AD9"
+			]
+			id: "139AE4522C175FDD"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "75914930A7446A1C"
+				type: "custom"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5207797D60D2BBC1"]
+			id: "4DE458058D93B9C2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6114B395101C3E44"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2702628853000619"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DE458058D93B9C2"]
+			id: "17DD7CB2987DD752"
+			shape: "rsquare"
+			tasks: [{
+				id: "3D458EA5B31F3EB4"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4DE458058D93B9C2"]
+			id: "00320FCE89F14C10"
+			shape: "rsquare"
+			tasks: [{
+				id: "79EE0BE9B7E86CD9"
+				item: { }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4DE458058D93B9C2"]
+			id: "0521C38620795E83"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6F79AEB5D511985C"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "33599D14C8BDA7DC"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"17DD7CB2987DD752"
+				"00320FCE89F14C10"
+				"0521C38620795E83"
+				"539CFECC3AAB57E1"
+			]
+			id: "38F682FDF74FB480"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "2FE3C199908509AE"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B571122C1AF7A2F"]
+			id: "539CFECC3AAB57E1"
+			tasks: [{
+				id: "4E3BA33D2C13371D"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4C026D40D92A17C6"
+				"51EE98789152DDBF"
+			]
+			id: "3B571122C1AF7A2F"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "2B19ACA917DE8ABE"
+				item: { }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D4738D2EE79DC21"]
+			id: "4C026D40D92A17C6"
+			tasks: [{
+				id: "41376AC6F17E5F37"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2AA92B1594C3A54A"]
+			id: "5D4738D2EE79DC21"
+			tasks: [{
+				id: "70F2563CF5425A10"
+				item: { }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5207797D60D2BBC1"]
+			hide_dependency_lines: true
+			id: "2AA92B1594C3A54A"
+			shape: "hexagon"
+			tasks: [{
+				id: "0AB4EE183A682919"
+				item: { }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"7B42F7EF738DA69E"
+				"499EDAA309D2E09F"
+			]
+			id: "51EE98789152DDBF"
+			tasks: [{
+				id: "71BC3B19ED7725C9"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5207797D60D2BBC1"]
+			hide_dependency_lines: true
+			id: "7B42F7EF738DA69E"
+			shape: "hexagon"
+			tasks: [{
+				id: "350610B94FAA6C2E"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5207797D60D2BBC1"]
+			hide_dependency_lines: true
+			id: "499EDAA309D2E09F"
+			shape: "hexagon"
+			tasks: [{
+				id: "3AAD477AC3D54660"
+				item: { }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38F682FDF74FB480"]
+			id: "049364D7A78F39E1"
+			tasks: [{
+				id: "0FF28618B14083AE"
+				item: { }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["049364D7A78F39E1"]
+			id: "688A02C237A36784"
+			tasks: [{
+				id: "0395DF8C5B2ADA03"
+				item: { }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["688A02C237A36784"]
+			id: "7BFB53205A827114"
+			tasks: [{
+				id: "0841A0C3318B51D9"
+				item: { }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7BFB53205A827114"]
+			id: "4905963D4F1CFDC6"
+			tasks: [
+				{
+					id: "687BE71E84197297"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "798B05FFDEE2E722"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1FDA9A0DEF057B02"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6CC0F3CD446F12B5"
+					item: { }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4905963D4F1CFDC6"
+				"28D81D02667EDE71"
+				"76424E872B940DB2"
+			]
+			id: "2F98DCADDD1AB4FA"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6D732D463A28C1EA"
+				type: "custom"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5207797D60D2BBC1"]
+			hide_dependency_lines: true
+			id: "28D81D02667EDE71"
+			tasks: [
+				{
+					id: "6C2D070D7545BEB0"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "0D0D255CFFA2807F"
+					item: { }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5207797D60D2BBC1"]
+			hide_dependency_lines: true
+			id: "76424E872B940DB2"
+			tasks: [{
+				id: "332F5CF004224539"
+				item: { }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F98DCADDD1AB4FA"]
+			id: "79C5721892EFAC68"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "14D7953A8C2B3D53"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000000000L
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+	]
+}

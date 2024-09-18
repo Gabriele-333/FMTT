@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vampirism"
+	group: "211A4D5C687978E3"
+	id: "57C80A379267401C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_visible: true
+			id: "3BF10A632D888F3E"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "vampirism:vampire/become_vampire"
+				criterion: ""
+				id: "374106EA18747633"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_visible: true
+			id: "60A925962BF66770"
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "1A8CF264A777BC92"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "284203540F7C28C1"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_visible: true
+			id: "61B5ED3FE5FED1F3"
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "626DBF45032B51D4"
+				item: { }
+				type: "item"
+			}]
+			x: 4.375d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"61B5ED3FE5FED1F3"
+				"60A925962BF66770"
+			]
+			id: "4946B482672E95CA"
+			tasks: [{
+				advancement: "vampirism:hunter/become_hunter"
+				criterion: ""
+				id: "0AADDC17DB5788D9"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BF10A632D888F3E"]
+			id: "59D49D36D5B28A2B"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "40A07B51DBB558EF"
+				item: { }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59D49D36D5B28A2B"]
+			id: "12ED265409FA3AE8"
+			tasks: [{
+				id: "6BCF316250D70741"
+				item: { }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59D49D36D5B28A2B"]
+			id: "6EAA051B58E858FF"
+			tasks: [{
+				id: "290454DF9F5F6BCF"
+				item: { }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59D49D36D5B28A2B"]
+			id: "647A072B70484445"
+			tasks: [{
+				id: "2746A5F74D935A52"
+				item: { }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3BF10A632D888F3E"]
+			id: "49FDE31F1A295A77"
+			tasks: [{
+				id: "7617F5D0B6267A1C"
+				item: { }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BF10A632D888F3E"]
+			hide_dependency_lines: true
+			id: "224E2C2B9ABB8BE3"
+			shape: "circle"
+			tasks: [{
+				id: "5B2EEB13B7DA07BB"
+				item: { components: { "ftbquests:missing_item": "vampirism:heart_seeker_normal" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BF10A632D888F3E"]
+			hide_dependency_lines: true
+			id: "31AA51E011FEAF8E"
+			tasks: [{
+				id: "14426B399A5A6CF6"
+				item: { components: { "ftbquests:missing_item": "vampirism:heart_seeker_enhanced" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BF10A632D888F3E"]
+			hide_dependency_lines: true
+			id: "0FF6C58B4221CB4C"
+			tasks: [{
+				id: "664B3B5A820AE25C"
+				item: { components: { "ftbquests:missing_item": "vampirism:heart_seeker_ultimate" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BF10A632D888F3E"]
+			hide_dependency_lines: true
+			id: "18E781AD6F096428"
+			tasks: [{
+				id: "372FE1D7D29AFFA8"
+				item: { components: { "ftbquests:missing_item": "vampirism:heart_striker_normal" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BF10A632D888F3E"]
+			hide_dependency_lines: true
+			id: "241A8678FCBC2F05"
+			tasks: [{
+				id: "0509FF929D915482"
+				item: { components: { "ftbquests:missing_item": "vampirism:heart_striker_enhanced" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BF10A632D888F3E"]
+			hide_dependency_lines: true
+			id: "199516BD389B9ECE"
+			tasks: [{
+				id: "241460B77432EEFD"
+				item: { components: { "ftbquests:missing_item": "vampirism:heart_striker_ultimate" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+	]
+}

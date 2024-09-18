@@ -1,0 +1,458 @@
+{
+	autofocus_id: "2B0F7D7D0014DA16"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cosmus"
+	group: ""
+	id: "00396965193AC7CF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_visible: true
+			id: "47694169429ECC8C"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "1D534D5C1D0CFBE4"
+				item: { count: 1, id: "fmtt:crystal_of_cosmos" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_visible: true
+			id: "5ECD84559CA7CDA8"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "0DCBDA0CC5F9D249"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5ECD84559CA7CDA8"]
+			id: "0E8A33718AF9B7BD"
+			optional: true
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "3460D230C86E4B29"
+				item: { }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.875d
+		}
+		{
+			dependencies: ["5ECD84559CA7CDA8"]
+			id: "2E1A880C4FE318BD"
+			shape: "square"
+			tasks: [{
+				id: "6FBF2AA40A67E3AF"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E1A880C4FE318BD"]
+			id: "2C764387E94EB20C"
+			tasks: [{
+				id: "28B1565FA2011623"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2C764387E94EB20C"]
+			id: "2D46694ADA851DE6"
+			shape: "octagon"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "721C3AD0B3EEA266"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5ECD84559CA7CDA8"]
+			id: "18519CA1B6E8CDB9"
+			optional: true
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "39317158432D5B9A"
+				item: { count: 1, id: "travelersbackpack:standard" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.125d
+		}
+		{
+			dependencies: ["5ECD84559CA7CDA8"]
+			id: "597324F5F55BE238"
+			optional: true
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "76A9FBC4758E1022"
+				item: { }
+				type: "item"
+			}]
+			x: -9.375d
+			y: 4.0d
+		}
+		{
+			dependencies: ["403F1AAB410566DD"]
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:missing_item": "cataclysm:infernal_forge"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "000806F8580DB7AE"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "232545F42F0D9C16"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D46694ADA851DE6"]
+			id: "403F1AAB410566DD"
+			tasks: [{
+				id: "1393A293AA9AFA25"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D46694ADA851DE6"]
+			id: "527655FDA5FA4313"
+			tasks: [{
+				id: "65200D5C127C5EEC"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["527655FDA5FA4313"]
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:missing_item": "draconicevolution:mob_soul"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "64C3ADFE028BAB11"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "207CA071B4D8A1E6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["64C3ADFE028BAB11"]
+			id: "3BEBE43A4F2E0B7A"
+			shape: "gear"
+			size: 0.75d
+			tasks: [
+				{
+					id: "69C7A2D648CADF49"
+					item: { components: { "ftbquests:missing_item": "cataclysm:ignitium_helmet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "09E689290F527500"
+					item: { components: { "ftbquests:missing_item": "cataclysm:ignitium_chestplate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5CB7E79A04A5C24B"
+					item: { components: { "ftbquests:missing_item": "cataclysm:ignitium_leggings" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "0BE46960E26A5D86"
+					item: { components: { "ftbquests:missing_item": "cataclysm:ignitium_boots" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D46694ADA851DE6"]
+			id: "26B4A093D4147651"
+			tasks: [{
+				id: "6376136BB8E3514F"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["26B4A093D4147651"]
+			id: "73F0C5F5172E1D89"
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "0EA138852A5DB85A"
+				item: { }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D46694ADA851DE6"]
+			id: "138E267EF20ADCBD"
+			tasks: [{
+				id: "5C40F3E6F5FBF1D6"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5ECD84559CA7CDA8"]
+			id: "7ECC26CE4E25BE3A"
+			tasks: [
+				{
+					id: "47A39DA6649D2B16"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6305AE9585AC8FCE"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "228C0A3A00A97480"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "500C90AA7A171FFD"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "51B30C2EB56000C1"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "404B368D785ABFDE"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "3332D48B79184201"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "2A938A5DE89CEF21"
+					item: { }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7ECC26CE4E25BE3A"]
+			dependency_requirement: "one_started"
+			id: "1E00E791FF611EA9"
+			shape: "square"
+			tasks: [{
+				id: "1F7979F313816644"
+				item: { }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1E00E791FF611EA9"]
+			id: "69FB7AA07AA0D0AD"
+			tasks: [
+				{
+					id: "40A5010AC3294000"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "206EC2532B8F5250"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "4B3FF5B3FDC4D7E3"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6281E1E0526619CA"
+					item: { }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1E00E791FF611EA9"]
+			id: "2549B6EC984C7E1C"
+			tasks: [
+				{
+					id: "4D77E538F399BFEE"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "71DB5E750C0FEB6B"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "540EC9A2BEA6121A"
+					item: { }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2549B6EC984C7E1C"]
+			dependency_requirement: "one_started"
+			id: "698B6F60493AE947"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "47DC52EF7E5B3893"
+				item: { }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2549B6EC984C7E1C"]
+			dependency_requirement: "one_started"
+			id: "21A51B687A159E38"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4E04EFBA81979221"
+				item: { }
+				type: "item"
+			}]
+			x: -9.75d
+			y: 7.625d
+		}
+		{
+			dependencies: ["2549B6EC984C7E1C"]
+			dependency_requirement: "one_started"
+			id: "7D81909A04B4B3D8"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4EE2F8540E716F30"
+				item: { }
+				type: "item"
+			}]
+			x: -9.75d
+			y: 9.375d
+		}
+		{
+			dependencies: ["2E1A880C4FE318BD"]
+			id: "3EEB621FFC251702"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3ECF2A84FB245797"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_visible: true
+			id: "649F4945D7A6A2B7"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0F632820AADAD31A"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_visible: true
+			id: "375898525E021001"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "608B36EC3C59BA00"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5ECD84559CA7CDA8"]
+			id: "30E243217CDC3561"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "595020DBDD61D724"
+				item: { }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			id: "748A7B2A8B5A82E3"
+			tasks: [{
+				id: "5C4281F0D38C197F"
+				item: { count: 1, id: "ironfurnaces:iron_furnace" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+	]
+}

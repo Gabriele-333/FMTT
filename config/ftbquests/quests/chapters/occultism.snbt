@@ -1,0 +1,314 @@
+{
+	autofocus_id: "777A2A189B59C752"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "211A4D5C687978E3"
+	icon: {
+		id: "occultism:dictionary_of_spirits"
+	}
+	id: "56F926D00A7D634D"
+	images: [{
+		height: 9.0d
+		image: "fmtt:textures/image/occultism_image.png"
+		rotation: 0.0d
+		width: 9.0d
+		x: -0.25d
+		y: 4.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_visible: true
+			id: "04301B73035CDD25"
+			tasks: [{
+				id: "2723CE6A423E0A71"
+				item: { }
+				type: "item"
+			}]
+			x: -0.25d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"04301B73035CDD25"
+				"7DD2C358570375BE"
+			]
+			hide_until_deps_visible: true
+			id: "19B3C625F2DC63A1"
+			shape: "pentagon"
+			size: 2.5d
+			tasks: [{
+				id: "4D8C9964ED769B19"
+				item: { count: 1, id: "occultism:dictionary_of_spirits" }
+				type: "item"
+			}]
+			x: -0.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["19B3C625F2DC63A1"]
+			id: "5DDD0680C97ABCD5"
+			shape: "octagon"
+			tasks: [{
+				id: "19597DD0F3FBC9AF"
+				item: { }
+				type: "item"
+			}]
+			x: -1.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19B3C625F2DC63A1"]
+			id: "2D51AC23D0BEF826"
+			shape: "octagon"
+			tasks: [{
+				id: "5138CE5C7E060C3A"
+				item: { }
+				type: "item"
+			}]
+			x: -2.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19B3C625F2DC63A1"]
+			id: "0C06338B4958BA10"
+			shape: "octagon"
+			tasks: [{
+				id: "35A5D7829F339EFD"
+				item: { }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19B3C625F2DC63A1"]
+			id: "2507DFDAA19A86D8"
+			shape: "octagon"
+			tasks: [{
+				id: "60248E5120041763"
+				item: { }
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D51AC23D0BEF826"]
+			id: "289054ED1BE9545A"
+			tasks: [{
+				id: "160E6683421EE25F"
+				item: { count: 1, id: "occultism:divination_rod" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2D51AC23D0BEF826"
+				"5DDD0680C97ABCD5"
+				"2507DFDAA19A86D8"
+				"0C06338B4958BA10"
+			]
+			hide_dependency_lines: true
+			id: "745AB5A930ED969F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6A933EC68E359E21"
+				item: { }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2D51AC23D0BEF826"
+				"5DDD0680C97ABCD5"
+				"2507DFDAA19A86D8"
+				"0C06338B4958BA10"
+			]
+			hide_dependency_lines: true
+			id: "283C2AA91A2E7480"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5304087366FA5EBA"
+				item: { }
+				type: "item"
+			}]
+			x: -4.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2D51AC23D0BEF826"
+				"5DDD0680C97ABCD5"
+				"0C06338B4958BA10"
+				"2507DFDAA19A86D8"
+			]
+			hide_dependency_lines: true
+			id: "43934FC60F7823F6"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "584BA8AA0A3AE814"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: -0.25d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"5DDD0680C97ABCD5"
+				"0C06338B4958BA10"
+				"2D51AC23D0BEF826"
+				"2507DFDAA19A86D8"
+			]
+			hide_dependency_lines: true
+			id: "777A2A189B59C752"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "78B522AC1CE157F1"
+				item: { }
+				type: "item"
+			}]
+			x: -0.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19B3C625F2DC63A1"]
+			hide_dependency_lines: true
+			id: "697349A75B665C1B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "15B7450A7EF9E4F0"
+				item: { count: 1, id: "occultism:taboo_book" }
+				type: "item"
+			}]
+			x: -0.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"745AB5A930ED969F"
+				"777A2A189B59C752"
+			]
+			hide_dependency_lines: true
+			id: "0E3D34C050F65929"
+			shape: "octagon"
+			tasks: [{
+				id: "162DD7087EE9532A"
+				item: { components: { "occultism:spirit_name": "Hrothlymark" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"745AB5A930ED969F"
+				"43934FC60F7823F6"
+			]
+			hide_dependency_lines: true
+			id: "690FDB89857EF538"
+			shape: "octagon"
+			tasks: [{
+				id: "12B9BBC60B38D6BF"
+				item: { components: { "occultism:spirit_name": "Zorkzoirfyr" }, count: 1, id: "occultism:book_of_binding_bound_djinni" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"43934FC60F7823F6"
+				"283C2AA91A2E7480"
+			]
+			hide_dependency_lines: true
+			id: "3D6CAEF02AE3A6A6"
+			shape: "octagon"
+			tasks: [{
+				id: "46476EA6E7DC8CEA"
+				item: { components: { "occultism:spirit_name": "Cryzirthyre" }, count: 1, id: "occultism:book_of_binding_bound_afrit" }
+				type: "item"
+			}]
+			x: -3.25d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"777A2A189B59C752"
+				"283C2AA91A2E7480"
+			]
+			hide_dependency_lines: true
+			id: "1DEF137A4865F9C5"
+			shape: "octagon"
+			tasks: [{
+				id: "34C31A78EB25B6CA"
+				item: { components: { "occultism:spirit_name": "Aldcreslyne" }, count: 1, id: "occultism:book_of_binding_bound_marid" }
+				type: "item"
+			}]
+			x: -3.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43934FC60F7823F6"]
+			id: "29DC5226A5BAF33C"
+			size: 0.75d
+			tasks: [{
+				id: "446A933EC8746392"
+				item: { count: 1, id: "occultism:chalk_gold" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.125d
+		}
+		{
+			dependencies: ["43934FC60F7823F6"]
+			id: "71C232B35ED64CEE"
+			size: 0.75d
+			tasks: [{
+				id: "3B991410E81E834C"
+				item: { count: 1, id: "occultism:chalk_purple" }
+				type: "item"
+			}]
+			x: -0.25d
+			y: 10.125d
+		}
+		{
+			dependencies: ["43934FC60F7823F6"]
+			id: "33425ABEAC692A9B"
+			size: 0.75d
+			tasks: [{
+				id: "055A0DF7351809F8"
+				item: { count: 1, id: "occultism:chalk_red" }
+				type: "item"
+			}]
+			x: 0.875d
+			y: 10.125d
+		}
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide_until_deps_visible: true
+			id: "236903E5C8EB672E"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "03A360DDDA57CF34"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+	]
+}

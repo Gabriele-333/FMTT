@@ -1,0 +1,94 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_universe"
+	group: ""
+	icon: {
+		id: "modonomicon:modonomicon"
+	}
+	id: "6D42164C751A0A33"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "modonomicon:modonomicon"
+			}
+			id: "52D7B1425F500AB0"
+			shape: "pentagon"
+			size: 2.5d
+			tasks: [
+				{
+					id: "66D0644B39AB2420"
+					item: { count: 1, id: "modonomicon:modonomicon" }
+					type: "item"
+				}
+				{
+					id: "215FAFB7EDCE03F8"
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4627CDC522D7FBB6"
+			rewards: [{
+				id: "3BA9B501235D5C44"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "65E083FE9D807CCD"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4627CDC522D7FBB6"]
+			id: "65248E650412E5DC"
+			rewards: [{
+				id: "632B098DB474C810"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4E01A7E021665B55"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["65248E650412E5DC"]
+			id: "7DD2C358570375BE"
+			rewards: [{
+				id: "72405F2E736BC7F2"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "03427D2D9D3B803A"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.75d
+		}
+		{
+			id: "263D6DB843F4DB57"
+			tasks: [{
+				id: "3CB9D227B83A11DB"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+}
